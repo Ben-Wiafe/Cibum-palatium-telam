@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import backImage from '../assets/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg';
-import herodesign from "../assets/herodesign.png";
+import herodesign from "../assets/herodesign-removebg-preview.png";
 
 
 function Hero() {
@@ -53,17 +53,18 @@ const Section = styled.section`
     
         .sale{
             position:relative;
+            left:5%;
 
-            h1{
-                color:green;
+            h1{ 
+                color:white;
                 position:absolute;
-                top:14vh;
-                left:18vh;
-                font-size:3.5rem;
-            }
+                top:21vh;
+                left:17vh;
+                font-size:4.5rem;
+            }   
             span{
                 display:block;
-                font-size:4.5vw;
+                
             }
             
         }
@@ -76,6 +77,40 @@ const Section = styled.section`
             align-items:flex-end;
             gap:1rem
         }
+        img{
+            width:100%;
+            height:65vh;
+            filter: brightness(90%)
+        }
+        h2{
+            color:#FFB997;
+            font-size:4rem;
+            letter-spacing:0.5rem;
+            font-family:roboto;
+        }
+        em{
+            color:white;
+            font-size:1.1rem;
+            width:60%;
+            text-align: end;
+            font-family: poppins;
+            letter-spacing: 0.1rem;
+        }
+        button{
+            font-size:1.5rem;
+            background:#0A2463;
+            letter-spacing:0.2rem;
+            border:none;
+            padding:1.2rem 2rem;
+            border-radius:10px;
+            color:white;
+            font-weight:600;
+            cursor:pointer;
+            transition: 0.3s ease-in-out;
+            &:hover{
+                background: #FFB997;
+            }
 
+        }
     }
 `;
