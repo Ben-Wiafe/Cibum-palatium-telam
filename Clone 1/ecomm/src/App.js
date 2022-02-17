@@ -16,11 +16,14 @@ function App() {
      {/* <ScrollToTop/> */}
      <Navbar/>
      <Hero/>
-     {/* <Hero/>
      <Services/>
      <Portfolio/>
      <Testimonial/>
      <Product/>
+
+     {/*
+
+    
      <Newsletter/>
      <Footer/> */}
     </div>
