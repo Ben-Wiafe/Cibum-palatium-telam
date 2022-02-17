@@ -13,15 +13,19 @@ import Product from "./components/Product";
 function App() {
   return (
     <div>
-     <ScrollToTop/>
+     {/* <ScrollToTop/> */}
      <Navbar/>
      <Hero/>
      <Services/>
      <Portfolio/>
      <Testimonial/>
      <Product/>
+
+     {/*
+
+    
      <Newsletter/>
-     <Footer/>
+     <Footer/> */}
     </div>
   );
 }
